@@ -1,0 +1,80 @@
+/* ===== Dark Mode Vibes ===== */
+Screen {
+    background: #0e0e0e;
+    color: #d4d4d4;
+}
+
+/* Header & Footer */
+Header, Footer {
+    background: #1e1e1e;
+    color: #00ffae;
+    text-style: bold;
+}
+
+/* Status Bar */
+StatusBar {
+    background: #121212;
+    color: #ffcc00;
+    height: 1;
+    padding: 1 2;
+    border-top: solid #333;
+}
+
+/* Directory Tree */
+DirectoryTree {
+    background: #151515;
+    color: #bbbbbb;
+    border: solid #333;
+    width: 40%;
+    scrollbar-color: #828c89ff;
+}
+
+/* File Preview Panel */
+FilePreview {
+    background: #101010;
+    color: #d4d4d4;
+    border: solid #333;
+    padding: 1;
+}
+
+/* Selected files pop more */
+DirectoryTree > .highlight {
+    background: #00ffae;
+    color: black;
+}
+
+/* ===== Command Bar ===== */
+#cmdbar {
+    background: #222;
+    color: #00ffae;
+    height: 3;
+    padding: 0 1;
+    border: solid #00ffae;
+    width: 100%;
+}
+
+/* Make the command input more visible */
+#cmdbar:focus {
+    background: #2a2a2a;
+    border: double #00ffae;
+}
+
+/* ===== Autocomplete Suggestions ===== */
+#suggestions {
+    background: #111;
+    color: #2aac30;
+    height: auto;
+    max-height: 6;
+    border: solid #444;
+    padding: 0;
+    width: 100%;
+}
+
+#suggestions > ListItem {
+    padding: 0 1;
+}
+
+#suggestions > ListItem:hover {
+    background: #00ffae;
+    color: black;
+}
